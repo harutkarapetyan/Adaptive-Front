@@ -1,0 +1,27 @@
+.home_main{
+    padding:0 50px;
+    // max-width: 1140px;
+    width: 100%;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+    .home_main_txt{
+        h1{
+            color: #FFFFFF;
+            font-size: 25px;
+            text-align: center;
+
+        }
+        h2{
+            text-align: center;
+            color: #FFFFFF;
+            font-size: 20px;
+        }
+    }
+  }
+  

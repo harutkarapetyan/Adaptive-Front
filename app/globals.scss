@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.home_page {
+
+    position: relative;
+}
+.main {
+    .main_block {
+        display: flex;
+        justify-content: space-around;
+
+        .block_item {
+
+            width: 20%;
+            h1 {
+                font-size: 25px;
+                text-align: center;
+            }
+            p {
+                font-size: 20px;
+                text-align: center;
+            }
+        }
+    }
+}
