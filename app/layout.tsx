@@ -1,6 +1,5 @@
 "use client"
 import "./globals.scss";
-import App from "./routing/page";
 export default function RootLayout({children,}: Readonly<{
   children: React.ReactNode;
 }>) {
