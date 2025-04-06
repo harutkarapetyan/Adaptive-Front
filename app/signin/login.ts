@@ -1,7 +1,9 @@
 import axios from "axios";
 
 interface LoginResponse {
-  token: string;
+  access_token: string;
+  user_id:number;
+
 }
 export async function login(email: string, password: string): Promise<LoginResponse> {
   try {

@@ -14,8 +14,10 @@ const SignIn:React.FC = () => {
       setError(null);
       try {
         const response = await login(email, password);
-        localStorage.setItem("token", response.token);
-        localStorage.setItem("userId", response.user_id);
+        console.log(response);
+
+        localStorage.setItem("token", response.access_token);
+        localStorage.setItem("userId", response.user_id.toString());
         window.location.href = "/dashboard";
       } catch (error: any) {
         setError(error.message);
