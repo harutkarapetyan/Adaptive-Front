@@ -18,7 +18,7 @@ const SignIn:React.FC = () => {
 
         localStorage.setItem("token", response.access_token);
         localStorage.setItem("userId", response.user_id.toString());
-        window.location.href = "/dashboard";
+        // window.location.href = "/dashboard";
       } catch (error: any) {
         setError(error.message);
       } finally {

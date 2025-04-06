@@ -66,8 +66,6 @@ const UserProfilePage: React.FC = () => {
         <Button type="button"title="Ջնջել"></Button>
         <Button type="button"title="Տեսնել"></Button>
         <Button type="button"title="Տեսնել"></Button>
-
-
       </div>
       {/* <DeleteItemComponent/> */}
     </div>
