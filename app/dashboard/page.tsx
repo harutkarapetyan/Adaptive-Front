@@ -10,7 +10,7 @@ const UserProfilePage: React.FC = () => {
   const [userData, setUserData] = useState<any>(null);
   const [error, setError] = useState<string | null>(null);
   const [loading, setLoading] = useState(false);
-  const userId = localStorage.getItem("userId");
+  const userId = localStorage.getItem("userId",) || null; // Get userId from localStorage
   useEffect(() => {
     const AxiosUserData = async () => {
       setLoading(true);
